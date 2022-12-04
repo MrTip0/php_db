@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="m-4">
-        <form action="/" method="get">
+        <form action="" method="get">
             <div class="mb-3 row">
                 <label for="inputId" class="col-sm-2 col-form-label">Id</label>
                 <div class="col-sm-10">
@@ -75,7 +75,7 @@
         while ($arr = $r->fetch_assoc()) {
             ?>
             <tr>
-                <th scope="row"><a href="/info/?id=<?php echo $arr["id"] ?>"><?php echo $arr["id"] ?></a></th>
+                <th scope="row"><a href="./info/?id=<?php echo $arr["id"] ?>"><?php echo $arr["id"] ?></a></th>
                 <td><?php echo $arr["cognome"] ?></td>
                 <td><?php echo $arr["nome"] ?></td>
                 <td><?php echo $arr["data_nascita"] ?></td>
