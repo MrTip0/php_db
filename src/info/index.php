@@ -107,5 +107,8 @@
         </tr>
         <?php } ?>
     </table>
+    <div class="row">
+        <a href="../update/?id=<?php echo $_GET['id'] ?>" class="btn btn-primary">Modifica</a>
+    </div>
 </body>
 </html>
