@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Persone</title>
     </head>
     <body class="m-4">
         <form action="" method="get">
@@ -98,7 +99,8 @@
             </tbody>
         </table>
         <div class="row fixed-bottom">
-            <a href="add/" class="btn btn-primary">Aggiungi persona</a>
+            <a href="add/" class="btn btn-primary col">Aggiungi persona</a>
+            <a href="statistiche/" class="btn btn-primary col">Statistiche</a>
         </div>
     </body>
 </html>
