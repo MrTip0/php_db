@@ -16,7 +16,7 @@ function update() {
 
     foreach ($_GET as $key => $value) {
         if ($value != "") {
-            $data[$key] = $value;
+            $data[$key] = htmlentities($value);
         }
     }
 
